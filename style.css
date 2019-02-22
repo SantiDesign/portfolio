@@ -1,0 +1,96 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 0;
+}
+h1, h2{
+  font-family: 'Kanit', sans-serif;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 10px auto;
+  color: #484848;
+}
+h1 span{
+  color: #b34c4c;
+}
+.hshot{
+  background: url("./img/black-and-white-underpass_4460x4460.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 25px;
+}
+.title_container{
+  color: #fff;
+}
+.title_container h2{
+  font-size: 100px;
+  letter-spacing: .25em;
+  margin: 0 auto;
+  line-height: 1em;
+  width: 97%;
+}
+.title_container h3{
+  letter-spacing: 0.55em;
+  text-align: center;
+  width: 100%;
+  margin-block-end: 0;
+  margin-top: 0;
+}
+.gallery{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2.section_title{
+  text-align: center;
+  color: #b34c4c;
+  font-size: 2em;
+  letter-spacing: .015em;
+  margin-top: 1.4em;
+}
+p.section_text{
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  padding: 0 30px;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 0 30px 60px;
+}
+.container{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item{
+  flex: 0 1 auto;
+  width: 240px;
+  height: 160px;
+  border: 2px solid #484848;
+  margin: 20px;
+  background-size: cover;
+  background-position: top right;
+}
+.project-1{
+  background-image: url(./img/Winterhell.png);
+  background-position: -10px 0;
+}
+.project-2{
+  background-image: url(./img/Flycard.jpg);
+  background-position: 0 -25px;
+}
+.project-3{
+  background-image: url(./img/atStats.png);
+}
+.project-4{
+  background-image: url(./img/kemitt.png);
+}
